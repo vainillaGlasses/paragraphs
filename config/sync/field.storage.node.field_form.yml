@@ -1,0 +1,20 @@
+uuid: b8ce8499-adde-4e6e-89fe-686725bd9560
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - node
+id: node.field_form
+field_name: field_form
+entity_type: node
+type: entity_reference
+settings:
+  target_type: contact_form
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

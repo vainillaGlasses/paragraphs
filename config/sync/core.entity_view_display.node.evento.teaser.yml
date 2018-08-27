@@ -1,0 +1,36 @@
+uuid: 9617f3f9-4fba-4be2-a3a7-687861e8be68
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evento.body
+    - node.type.evento
+  module:
+    - text
+    - user
+id: node.evento.teaser
+targetEntityType: node
+bundle: evento
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  flag_eventos_flag:
+    weight: 10
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_ca: true
+  field_fecha: true
+  field_imagen_evento: true
+  field_precio: true
+  langcode: true

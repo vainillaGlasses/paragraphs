@@ -1,0 +1,18 @@
+uuid: 5e6a35a2-8aee-4d25-a5bc-e1d8c0996396
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.contenido_noticias
+id: node.contenido_noticias.title
+field_name: title
+entity_type: node
+bundle: contenido_noticias
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,8 @@
+uuid: 6925abcd-2f7d-4f4f-9e84-b10c8ad80821
+langcode: en
+status: true
+dependencies: {  }
+id: noticias
+label: Noticias
+locked: false
+pattern: 'F d, Y'

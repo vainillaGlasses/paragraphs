@@ -1,0 +1,48 @@
+uuid: bdc95979-1dc2-4332-a8ed-5e7efa25ae9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_form_page.body
+    - field.field.node.contact_form_page.field_form
+    - node.type.contact_form_page
+  module:
+    - text
+id: node.contact_form_page.default
+targetEntityType: node
+bundle: contact_form_page
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 0
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_form:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

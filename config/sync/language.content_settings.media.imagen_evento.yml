@@ -1,0 +1,11 @@
+uuid: 1e5176f9-fc8f-456d-a83a-84255a3d49be
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.imagen_evento
+id: media.imagen_evento
+target_entity_type_id: media
+target_bundle: imagen_evento
+default_langcode: site_default
+language_alterable: false

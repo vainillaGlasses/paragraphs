@@ -1,0 +1,13 @@
+uuid: 537676fc-812d-4666-aa91-c06db024f66f
+langcode: es
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.eventos_flag.flag
+label: Asistiré
+type: node
+plugin: 'flag_action:eventos_flag.flag'
+configuration:
+  flag_id: eventos_flag
+  flag_action: flag

@@ -1,0 +1,20 @@
+uuid: e0f589f3-62b6-4778-85c1-c74db4b6b3e6
+langcode: es
+status: true
+dependencies:
+  module:
+    - dateformatter
+  theme:
+    - bartik
+id: showdateblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: show_date_block
+settings:
+  id: show_date_block
+  label: 'Show date block'
+  provider: dateformatter
+  label_display: visible
+visibility: {  }

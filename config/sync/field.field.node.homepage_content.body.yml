@@ -1,0 +1,22 @@
+uuid: 7247e842-5485-4eb1-b22e-a577bc30340c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.homepage_content
+  module:
+    - text
+id: node.homepage_content.body
+field_name: body
+entity_type: node
+bundle: homepage_content
+label: Cuerpo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

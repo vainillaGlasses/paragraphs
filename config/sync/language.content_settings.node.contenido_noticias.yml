@@ -1,0 +1,11 @@
+uuid: 27a89aa0-de2c-4f17-a667-dae515f9be39
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.contenido_noticias
+id: node.contenido_noticias
+target_entity_type_id: node
+target_bundle: contenido_noticias
+default_langcode: site_default
+language_alterable: false

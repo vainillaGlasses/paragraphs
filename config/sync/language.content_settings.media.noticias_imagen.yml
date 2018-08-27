@@ -1,0 +1,11 @@
+uuid: 9d5ff618-7061-4754-b702-b8ed2258ac3b
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.noticias_imagen
+id: media.noticias_imagen
+target_entity_type_id: media
+target_bundle: noticias_imagen
+default_langcode: site_default
+language_alterable: false

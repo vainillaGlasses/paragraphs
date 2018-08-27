@@ -1,0 +1,28 @@
+uuid: b383e2b8-4a1e-4548-be80-82547045b7b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen_noticias
+    - media.type.noticias_imagen
+    - node.type.contenido_noticias
+id: node.contenido_noticias.field_imagen_noticias
+field_name: field_imagen_noticias
+entity_type: node
+bundle: contenido_noticias
+label: 'Imagen Noticias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      noticias_imagen: noticias_imagen
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 3722ad6a-6908-4058-a674-f3ee2e4a7076
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_publicacion
+    - node.type.contenido_noticias
+  module:
+    - datetime
+id: node.contenido_noticias.field_fecha_publicacion
+field_name: field_fecha_publicacion
+entity_type: node
+bundle: contenido_noticias
+label: 'Fecha Publicacion'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

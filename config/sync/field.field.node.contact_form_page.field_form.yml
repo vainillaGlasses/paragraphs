@@ -1,0 +1,26 @@
+uuid: ca53b886-6496-42c5-a2cd-23acf19b95a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.node.field_form
+    - node.type.contact_form_page
+id: node.contact_form_page.field_form
+field_name: field_form
+entity_type: node
+bundle: contact_form_page
+label: Contáctenos
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: a635a1e5-6b91-479a-af56-304d99f287b3
+default_value_callback: ''
+settings:
+  handler: 'default:contact_form'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

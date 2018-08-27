@@ -1,0 +1,13 @@
+uuid: 27f8292e-f71e-410d-a513-48f0f37f96b7
+langcode: es
+status: true
+dependencies: {  }
+id: noticias_imagen
+label: 'Noticias Imagen'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

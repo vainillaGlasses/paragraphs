@@ -1,0 +1,28 @@
+uuid: 50e9789b-de4f-42f4-bf19-8377329b83d8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen_evento
+    - media.type.imagen_evento
+    - node.type.evento
+id: node.evento.field_imagen_evento
+field_name: field_imagen_evento
+entity_type: node
+bundle: evento
+label: 'Imagen Evento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      imagen_evento: imagen_evento
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

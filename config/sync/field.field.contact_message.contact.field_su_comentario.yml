@@ -1,0 +1,19 @@
+uuid: 8a66e81d-caea-47d5-96e9-5dd7182832ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact
+    - field.storage.contact_message.field_su_comentario
+id: contact_message.contact.field_su_comentario
+field_name: field_su_comentario
+entity_type: contact_message
+bundle: contact
+label: 'Su comentario'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

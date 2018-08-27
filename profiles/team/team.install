@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for Humpback profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function team_install() {
+}

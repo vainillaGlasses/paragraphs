@@ -1,0 +1,13 @@
+uuid: 294508b6-cc2a-4b80-8f0b-7611205cad68
+langcode: es
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.eventos_flag.unflag
+label: 'No Asistiré'
+type: node
+plugin: 'flag_action:eventos_flag.unflag'
+configuration:
+  flag_id: eventos_flag
+  flag_action: unflag

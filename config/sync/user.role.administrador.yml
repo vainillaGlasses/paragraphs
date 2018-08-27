@@ -1,0 +1,12 @@
+uuid: 4d82e74d-fe62-4617-9e7d-fcfbbde13647
+langcode: es
+status: true
+dependencies: {  }
+id: administrador
+label: 'Content Administrator'
+weight: 5
+is_admin: null
+permissions:
+  - 'edit any contact_form_page content'
+  - 'edit any contenido_noticias content'
+  - 'edit any evento content'

@@ -1,0 +1,10 @@
+uuid: f876a4ce-e93c-411f-b204-fb9a58847c47
+langcode: es
+status: true
+dependencies: {  }
+id: editor_de_eventos
+label: 'Editor de eventos'
+weight: 4
+is_admin: null
+permissions:
+  - 'edit any evento content'

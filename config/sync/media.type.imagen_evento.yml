@@ -1,0 +1,13 @@
+uuid: 9244fa4b-762c-43c2-9e62-cd882acf3683
+langcode: es
+status: true
+dependencies: {  }
+id: imagen_evento
+label: 'Imagen Evento'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_4
+field_map: {  }

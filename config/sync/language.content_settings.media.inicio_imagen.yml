@@ -1,0 +1,11 @@
+uuid: ce795224-8ac1-483c-a416-a322723460bb
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.inicio_imagen
+id: media.inicio_imagen
+target_entity_type_id: media
+target_bundle: inicio_imagen
+default_langcode: site_default
+language_alterable: false

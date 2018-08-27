@@ -1,0 +1,14 @@
+uuid: 681d8ebd-a480-4b78-b606-cd9b3d2c4123
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.administrador_de_contactos
+  module:
+    - user
+id: user_remove_role_action.administrador_de_contactos
+label: 'Remove the Administrador de Contactos role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: administrador_de_contactos

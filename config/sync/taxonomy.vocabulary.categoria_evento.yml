@@ -1,0 +1,9 @@
+uuid: 475e8739-cdd2-438e-b42a-8a567a337c02
+langcode: es
+status: true
+dependencies: {  }
+name: 'Categoría Evento'
+vid: categoria_evento
+description: ''
+hierarchy: 0
+weight: 0

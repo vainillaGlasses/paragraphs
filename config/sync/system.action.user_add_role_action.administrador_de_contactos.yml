@@ -1,0 +1,14 @@
+uuid: 0786ed8f-ac1b-41a0-a204-e465c643ac0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.administrador_de_contactos
+  module:
+    - user
+id: user_add_role_action.administrador_de_contactos
+label: 'Add the Administrador de Contactos role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: administrador_de_contactos

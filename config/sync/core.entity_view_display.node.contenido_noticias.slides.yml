@@ -1,0 +1,60 @@
+uuid: 95015512-e542-46e1-9736-0f944d8d084d
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slides
+    - field.field.node.contenido_noticias.body
+    - field.field.node.contenido_noticias.field_categorias_noticias
+    - field.field.node.contenido_noticias.field_fecha_publicacion
+    - field.field.node.contenido_noticias.field_imagen_noticias
+    - node.type.contenido_noticias
+  module:
+    - datetime
+    - text
+    - user
+id: node.contenido_noticias.slides
+targetEntityType: node
+bundle: contenido_noticias
+mode: slides
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_categorias_noticias:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_fecha_publicacion:
+    weight: 0
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_imagen_noticias:
+    type: entity_reference_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

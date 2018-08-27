@@ -1,0 +1,14 @@
+uuid: fcb7d549-40de-49af-9d1e-0d6c8d6725fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.editor_de_noticias
+  module:
+    - user
+id: user_remove_role_action.editor_de_noticias
+label: 'Remove the Editor de noticias role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: editor_de_noticias

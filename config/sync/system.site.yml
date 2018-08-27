@@ -1,0 +1,14 @@
+uuid: 93266f7a-5db6-4e3a-b847-9c795c513ecc
+name: team
+mail: samantha@estudiomanati.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: es
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,11 @@
+uuid: 00475a9b-c6a6-4b53-9cac-537b28d89e83
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.noticias
+id: taxonomy_term.noticias
+target_entity_type_id: taxonomy_term
+target_bundle: noticias
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 4f179b85-5326-4b3d-8036-2955f50110ee
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Homepage Content'
+type: homepage_content
+description: 'Contenido para la página de inicio'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,13 @@
+uuid: 07b29b8b-c51d-428c-94e0-7c3b0c74ab6d
+langcode: es
+status: true
+dependencies: {  }
+id: inicio_imagen
+label: 'Inicio Imagen'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

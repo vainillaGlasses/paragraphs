@@ -1,0 +1,32 @@
+uuid: c8556c20-c867-4fe1-b9af-ca098251504d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_image
+    - media.type.imagen_evento
+    - media.type.inicio_imagen
+    - media.type.noticias_imagen
+    - node.type.homepage_content
+id: node.homepage_content.field_homepage_image
+field_name: field_homepage_image
+entity_type: node
+bundle: homepage_content
+label: 'Homepage Image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      imagen_evento: imagen_evento
+      inicio_imagen: inicio_imagen
+      noticias_imagen: noticias_imagen
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: imagen_evento
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: a635a1e5-6b91-479a-af56-304d99f287b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Enviar
+    show_preview: true
+    disabled_form_message: 'Formulario de Contacto inhabilitado por el momento, por favor conáctenos por email'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: contact
+label: Contáctenos
+recipients:
+  - samantha@estudiomanati.com
+reply: ''
+weight: 0
+message: 'Gracias por contactarnos, nos pondemos en contacto a la brevedad.'
+redirect: /

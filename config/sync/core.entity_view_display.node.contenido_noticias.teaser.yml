@@ -1,0 +1,32 @@
+uuid: 0269ab05-f053-4787-9c73-ea8a43abad77
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contenido_noticias.body
+    - node.type.contenido_noticias
+  module:
+    - text
+    - user
+id: node.contenido_noticias.teaser
+targetEntityType: node
+bundle: contenido_noticias
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_categorias_noticias: true
+  field_fecha_publicacion: true
+  field_imagen_noticias: true
+  langcode: true

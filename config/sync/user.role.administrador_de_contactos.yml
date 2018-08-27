@@ -1,0 +1,20 @@
+uuid: 35bb1476-7048-492e-82cc-f5bb18d5f9b6
+langcode: en
+status: true
+dependencies: {  }
+id: administrador_de_contactos
+label: 'Administrador de Contactos'
+weight: 2
+is_admin: null
+permissions:
+  - 'access site-wide contact form'
+  - 'access user contact forms'
+  - 'administer contact forms'
+  - 'create contact_form_page content'
+  - 'delete any contact_form_page content'
+  - 'delete contact_form_page revisions'
+  - 'delete own contact_form_page content'
+  - 'edit any contact_form_page content'
+  - 'edit own contact_form_page content'
+  - 'revert contact_form_page revisions'
+  - 'view contact_form_page revisions'

@@ -1,0 +1,19 @@
+uuid: b50de2a5-4ee8-465e-895b-eaf5a581b77e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_emailauthor
+    - node.type.evento
+id: node.evento.field_emailauthor
+field_name: field_emailauthor
+entity_type: node
+bundle: evento
+label: emailAuthor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

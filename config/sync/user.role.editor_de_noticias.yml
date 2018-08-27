@@ -1,0 +1,10 @@
+uuid: dcdaaa67-6d04-49f7-b6d1-4f19e08841ca
+langcode: es
+status: true
+dependencies: {  }
+id: editor_de_noticias
+label: 'Editor de noticias'
+weight: 3
+is_admin: null
+permissions:
+  - 'edit any contenido_noticias content'

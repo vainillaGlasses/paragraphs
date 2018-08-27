@@ -1,0 +1,29 @@
+uuid: 2e22990c-5d5c-414a-9d3f-0edea634748a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.media.imagen_evento.field_media_image_4
+    - media.type.imagen_evento
+  module:
+    - image
+id: media.imagen_evento.default
+targetEntityType: media
+bundle: imagen_evento
+mode: default
+content:
+  field_media_image_4:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

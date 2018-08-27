@@ -1,0 +1,11 @@
+uuid: a143a8fe-5c8f-48c0-b07e-a036eb6fcccf
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria_evento
+id: taxonomy_term.categoria_evento
+target_entity_type_id: taxonomy_term
+target_bundle: categoria_evento
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+uuid: f5f42573-508b-409c-9a2b-44b9125137b2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categorias_noticias
+    - node.type.contenido_noticias
+    - taxonomy.vocabulary.noticias
+id: node.contenido_noticias.field_categorias_noticias
+field_name: field_categorias_noticias
+entity_type: node
+bundle: contenido_noticias
+label: 'Categorias Noticias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      noticias: noticias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
