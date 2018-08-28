@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a paragraph.
+ *
+ */
+#}
+{%
+set classes = [
+'paragraph',
+'paragraph--type--' ~ paragraph.bundle|clean_class,
+view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+'hero',
+]
+%}
+{% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+        <div class="hero__media">
+            {{ content.field_hb_image }}
+        </div>
+        <div class="hero__inner">
+            <div class="hero__content">
+                <h1>{{ content.field_hb_h1_text }}</h1>
+                <div class="hero__subtitle">{{ content.field_hb_subtitle }}</div>
+            </div>
+        </div>
+    </div>
+{% endblock paragraph %}

@@ -1,0 +1,38 @@
+.hero {
+    align-items: stretch;
+    display: flex;
+}
+
+.hero__media {
+    margin: 0 auto;
+    object-fit: cover;
+    opacity: 0.6;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero__inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.hero__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__content h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.hero__content .hero__subtitle {
+    font-size: 2rem;
+}
