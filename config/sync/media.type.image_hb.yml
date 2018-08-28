@@ -1,0 +1,13 @@
+uuid: a727648f-934a-4e0a-900a-db346b9112a8
+langcode: es
+status: true
+dependencies: {  }
+id: image_hb
+label: 'Image HB'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_5
+field_map: {  }

@@ -1,0 +1,19 @@
+uuid: 427a7701-a40a-403f-a22c-1c367328dc51
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hb_subtitle
+    - paragraphs.paragraphs_type.hero_banner
+id: paragraph.hero_banner.field_hb_subtitle
+field_name: field_hb_subtitle
+entity_type: paragraph
+bundle: hero_banner
+label: Subtitle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

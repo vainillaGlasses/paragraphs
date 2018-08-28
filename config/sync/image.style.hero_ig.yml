@@ -1,0 +1,14 @@
+uuid: 2a8c3dc7-9b61-446b-b522-875756ae2ed3
+langcode: es
+status: true
+dependencies: {  }
+name: hero_ig
+label: 'Hero Ig'
+effects:
+  ce23440d-9161-4e24-a4a8-aed9da85dab0:
+    uuid: ce23440d-9161-4e24-a4a8-aed9da85dab0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 400

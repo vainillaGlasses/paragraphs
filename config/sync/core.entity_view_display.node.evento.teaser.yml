@@ -30,6 +30,7 @@ content:
     region: content
 hidden:
   field_ca: true
+  field_emailauthor: true
   field_fecha: true
   field_imagen_evento: true
   field_precio: true

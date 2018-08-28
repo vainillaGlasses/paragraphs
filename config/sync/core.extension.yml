@@ -18,6 +18,8 @@ module:
   dynamic_page_cache: 0
   editor: 0
   email_formatter_module: 0
+  entity_browser: 0
+  entity_reference_revisions: 0
   entityqueue: 0
   field: 0
   field_ui: 0
@@ -36,11 +38,13 @@ module:
   libraries: 0
   link: 0
   media: 0
+  media_entity_browser: 0
   menu_link_content: 0
   menu_ui: 0
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_type_permissions: 0
   path: 0
   quickedit: 0
   search: 0
@@ -55,6 +59,7 @@ module:
   views: 0
   views_ui: 0
   pathauto: 1
+  paragraphs: 11
   team: 1000
 theme:
   stable: 0

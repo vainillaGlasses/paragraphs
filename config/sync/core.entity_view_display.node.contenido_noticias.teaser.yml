@@ -29,4 +29,5 @@ hidden:
   field_categorias_noticias: true
   field_fecha_publicacion: true
   field_imagen_noticias: true
+  field_tag: true
   langcode: true

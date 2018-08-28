@@ -57,4 +57,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_tag: true
   langcode: true

@@ -1,0 +1,28 @@
+uuid: 558ea2b0-445b-4d7a-ab38-ed1a217f0207
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hb_image
+    - media.type.image_hb
+    - paragraphs.paragraphs_type.hero_banner
+id: paragraph.hero_banner.field_hb_image
+field_name: field_hb_image
+entity_type: paragraph
+bundle: hero_banner
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image_hb: image_hb
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

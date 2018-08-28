@@ -1,0 +1,30 @@
+uuid: 6dc7e953-3d65-4b08-a30d-dde9c6ac43b8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.media.image_hb.field_media_image_5
+    - image.style.hero_ig
+    - media.type.image_hb
+  module:
+    - image
+id: media.image_hb.default
+targetEntityType: media
+bundle: image_hb
+mode: default
+content:
+  field_media_image_5:
+    weight: 0
+    label: visually_hidden
+    settings:
+      image_style: hero_ig
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
