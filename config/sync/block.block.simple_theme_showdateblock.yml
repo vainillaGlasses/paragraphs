@@ -1,0 +1,20 @@
+uuid: 0d2b1d03-a391-4d88-8d72-0bedc1d3361a
+langcode: es
+status: true
+dependencies:
+  module:
+    - dateformatter
+  theme:
+    - simple_theme
+id: simple_theme_showdateblock
+theme: simple_theme
+region: header
+weight: 0
+provider: null
+plugin: show_date_block
+settings:
+  id: show_date_block
+  label: 'Show date block'
+  provider: dateformatter
+  label_display: visible
+visibility: {  }

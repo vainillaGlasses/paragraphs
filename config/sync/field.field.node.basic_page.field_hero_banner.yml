@@ -1,0 +1,31 @@
+uuid: c80a468f-f820-49dc-9da2-4fc973bef8d1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_banner
+    - node.type.basic_page
+    - paragraphs.paragraphs_type.hero_banner
+  module:
+    - entity_reference_revisions
+id: node.basic_page.field_hero_banner
+field_name: field_hero_banner
+entity_type: node
+bundle: basic_page
+label: 'Hero Banner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      hero_banner: hero_banner
+    target_bundles_drag_drop:
+      hero_banner:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

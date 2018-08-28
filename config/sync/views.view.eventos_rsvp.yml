@@ -453,11 +453,12 @@ display:
         type: normal
         title: 'Eventos RSVP'
         description: ''
-        expanded: false
+        expanded: true
         parent: ''
-        weight: 0
+        weight: -46
         context: '0'
         menu_name: main
+        enabled: false
     cache_metadata:
       max-age: -1
       contexts:

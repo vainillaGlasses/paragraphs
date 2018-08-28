@@ -474,6 +474,7 @@ display:
         weight: -49
         context: '0'
         menu_name: main
+        enabled: false
       filters:
         title:
           id: title

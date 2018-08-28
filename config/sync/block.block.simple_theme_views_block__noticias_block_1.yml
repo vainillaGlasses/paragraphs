@@ -1,0 +1,30 @@
+uuid: c3164811-f060-4e93-a45d-7c557b38ff03
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.noticias
+  module:
+    - system
+    - views
+  theme:
+    - simple_theme
+id: simple_theme_views_block__noticias_block_1
+theme: simple_theme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:noticias-block_1'
+settings:
+  id: 'views_block:noticias-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /noticias
+    negate: false
+    context_mapping: {  }

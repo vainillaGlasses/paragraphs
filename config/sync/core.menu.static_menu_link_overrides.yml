@@ -1,12 +1,12 @@
 definitions:
   user__page:
-    weight: -44
+    enabled: false
     menu_name: main
     parent: ''
     expanded: false
-    enabled: true
+    weight: -44
   user__logout:
-    weight: -43
+    weight: -42
     menu_name: main
     parent: ''
     expanded: false

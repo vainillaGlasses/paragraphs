@@ -1,0 +1,30 @@
+uuid: b83ff87b-1d69-416e-9789-526001d47d82
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.inicio
+  module:
+    - system
+    - views
+  theme:
+    - simple_theme
+id: simple_theme_views_block__inicio_block_1
+theme: simple_theme
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:inicio-block_1'
+settings:
+  id: 'views_block:inicio-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /inicio
+    negate: false
+    context_mapping: {  }
