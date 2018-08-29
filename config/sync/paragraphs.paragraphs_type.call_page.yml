@@ -1,0 +1,9 @@
+uuid: d88ee0cf-24ac-420c-b0ce-492b0286f8d2
+langcode: es
+status: true
+dependencies: {  }
+id: call_page
+label: 'Call Page'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

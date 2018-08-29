@@ -1,0 +1,37 @@
+uuid: e5335aaa-4df8-425e-8fbe-24b4b6bab3ff
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_to_link
+    - node.type.for_link_page
+    - paragraphs.paragraphs_type.call_page
+  module:
+    - entity_reference_revisions
+id: node.for_link_page.field_to_link
+field_name: field_to_link
+entity_type: node
+bundle: for_link_page
+label: 'To Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      call_page: call_page
+    target_bundles_drag_drop:
+      award_card:
+        weight: 4
+        enabled: false
+      call_page:
+        enabled: true
+        weight: 5
+      hero_banner:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

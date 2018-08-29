@@ -1,0 +1,9 @@
+uuid: a1737745-1f5b-4abf-8f0e-6d78e6481a6a
+langcode: es
+status: true
+dependencies: {  }
+id: award_card
+label: 'Award Card'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

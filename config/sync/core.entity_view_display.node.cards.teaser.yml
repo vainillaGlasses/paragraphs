@@ -1,0 +1,29 @@
+uuid: bd8717d7-cfef-4ab1-872c-baef37d5c985
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cards.body
+    - node.type.cards
+  module:
+    - text
+    - user
+id: node.cards.teaser
+targetEntityType: node
+bundle: cards
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

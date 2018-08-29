@@ -1,0 +1,54 @@
+uuid: 127abd15-bb5a-45ef-842f-328c8950a5c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_page.field_call_action_link
+    - field.field.paragraph.call_page.field_call_action_text
+    - field.field.paragraph.call_page.field_call_action_title
+    - field.field.paragraph.call_page.field_image
+    - paragraphs.paragraphs_type.call_page
+  module:
+    - link
+id: paragraph.call_page.default
+targetEntityType: paragraph
+bundle: call_page
+mode: default
+content:
+  field_call_action_link:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_call_action_text:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_call_action_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

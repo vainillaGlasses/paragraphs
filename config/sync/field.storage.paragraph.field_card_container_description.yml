@@ -1,0 +1,21 @@
+uuid: 6d1f4da4-2794-4e01-a728-7072e858d450
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_card_container_description
+field_name: field_card_container_description
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

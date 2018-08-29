@@ -1,0 +1,38 @@
+uuid: f882885d-199d-4dbf-a425-a6a5939b9b2e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.cards.body
+    - field.field.node.cards.field_cards
+    - node.type.cards
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.cards.default
+targetEntityType: node
+bundle: cards
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cards:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

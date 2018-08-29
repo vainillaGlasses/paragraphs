@@ -1,0 +1,40 @@
+uuid: 1f2b1a30-3be0-4c0f-bba5-a1f014e5ff31
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_container.field_card_container_description
+    - field.field.paragraph.card_container.field_card_container_paragraphs
+    - field.field.paragraph.card_container.field_card_container_title
+    - paragraphs.paragraphs_type.card_container
+  module:
+    - paragraphs
+id: paragraph.card_container.default
+targetEntityType: paragraph
+bundle: card_container
+mode: default
+content:
+  field_card_container_description:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_card_container_paragraphs:
+    type: paragraph_summary
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_card_container_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

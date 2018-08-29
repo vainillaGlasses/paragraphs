@@ -1,0 +1,20 @@
+uuid: f94c960c-7cde-48bd-b43f-208d7e52b58a
+langcode: es
+status: true
+dependencies:
+  module:
+    - image
+    - paragraphs
+id: paragraph.field_award_image
+field_name: field_award_image
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: image_style
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

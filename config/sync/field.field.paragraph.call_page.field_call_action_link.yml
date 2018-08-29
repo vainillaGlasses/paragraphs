@@ -1,0 +1,23 @@
+uuid: d578d082-1cf7-4c60-84cf-ce3a8ffb4318
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_action_link
+    - paragraphs.paragraphs_type.call_page
+  module:
+    - link
+id: paragraph.call_page.field_call_action_link
+field_name: field_call_action_link
+entity_type: paragraph
+bundle: call_page
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

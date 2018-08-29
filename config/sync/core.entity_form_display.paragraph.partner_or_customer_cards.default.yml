@@ -1,0 +1,45 @@
+uuid: 92e01f63-9c78-4331-9582-9eaf3de65dad
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.partner_or_customer_cards.field_partner_card_image
+    - field.field.paragraph.partner_or_customer_cards.field_partner_link
+    - field.field.paragraph.partner_or_customer_cards.field_title
+    - paragraphs.paragraphs_type.partner_or_customer_cards
+  module:
+    - link
+id: paragraph.partner_or_customer_cards.default
+targetEntityType: paragraph
+bundle: partner_or_customer_cards
+mode: default
+content:
+  field_partner_card_image:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_partner_link:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

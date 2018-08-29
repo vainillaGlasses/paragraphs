@@ -1,0 +1,19 @@
+uuid: 6bf6405c-e6f9-4f95-b819-8404a0268ce5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_container_description
+    - paragraphs.paragraphs_type.card_container
+id: paragraph.card_container.field_card_container_description
+field_name: field_card_container_description
+entity_type: paragraph
+bundle: card_container
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

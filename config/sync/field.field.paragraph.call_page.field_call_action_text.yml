@@ -1,0 +1,19 @@
+uuid: 4ea516dd-a16f-4316-98f3-4178782a7c98
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_action_text
+    - paragraphs.paragraphs_type.call_page
+id: paragraph.call_page.field_call_action_text
+field_name: field_call_action_text
+entity_type: paragraph
+bundle: call_page
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

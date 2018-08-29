@@ -1,0 +1,53 @@
+uuid: 246df354-101c-4984-9a83-e21e89f30b67
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.award_card.field_award_company
+    - field.field.paragraph.award_card.field_award_description
+    - field.field.paragraph.award_card.field_award_image
+    - field.field.paragraph.award_card.field_award_press_release
+    - paragraphs.paragraphs_type.award_card
+id: paragraph.award_card.default
+targetEntityType: paragraph
+bundle: award_card
+mode: default
+content:
+  field_award_company:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_award_description:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_award_image:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_award_press_release:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

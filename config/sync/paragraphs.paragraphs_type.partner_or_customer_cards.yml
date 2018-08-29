@@ -1,0 +1,9 @@
+uuid: 40408013-7fe2-4864-9bc3-803fb5d4cee9
+langcode: es
+status: true
+dependencies: {  }
+id: partner_or_customer_cards
+label: 'Partner or customer cards'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }
