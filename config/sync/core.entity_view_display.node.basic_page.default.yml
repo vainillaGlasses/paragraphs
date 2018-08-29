@@ -18,13 +18,13 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   field_hero_banner:
     type: entity_reference_revisions_entity_view
-    weight: 102
+    weight: 0
     label: hidden
     settings:
       view_mode: default
@@ -32,7 +32,7 @@ content:
     third_party_settings: {  }
     region: content
   links:
-    weight: 100
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
