@@ -3,38 +3,25 @@ langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.for_link_page.body
     - field.field.node.for_link_page.field_to_link
     - node.type.for_link_page
   module:
     - entity_reference_revisions
-    - text
     - user
 id: node.for_link_page.default
 targetEntityType: node
 bundle: for_link_page
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_to_link:
     type: entity_reference_revisions_entity_view
-    weight: 102
+    weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
+  links: true

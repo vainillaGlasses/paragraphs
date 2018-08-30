@@ -4,26 +4,18 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.for_link_page.body
+    - field.field.node.for_link_page.field_to_link
     - node.type.for_link_page
   module:
-    - text
     - user
 id: node.for_link_page.teaser
 targetEntityType: node
 bundle: for_link_page
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     region: content
 hidden:
+  field_to_link: true
   langcode: true
