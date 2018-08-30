@@ -1,16 +1,14 @@
-uuid: 16872cd7-e947-4733-bb36-ebd0b0aa3675
+uuid: cc982628-2ece-4b1c-8339-348c6f8b384e
 langcode: es
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_card_container_title
-field_name: field_card_container_title
+id: paragraph.field_card_body
+field_name: field_card_body
 entity_type: paragraph
-type: string
+type: string_long
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

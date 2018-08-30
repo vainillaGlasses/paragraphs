@@ -1,9 +1,9 @@
-uuid: 3f31c092-9b14-4ecf-8dc3-4d257e610c99
+uuid: b39251c8-3691-4a2c-84df-ba999456e52e
 langcode: es
 status: true
 dependencies: {  }
-id: testimonials
-label: Testimonials
+id: card
+label: Card
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

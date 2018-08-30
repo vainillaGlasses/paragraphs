@@ -1,16 +1,16 @@
-uuid: dae4106f-6824-4387-a1d7-7c3835b47ea9
+uuid: 19c87c80-59ee-4d24-a618-2c8604794615
 langcode: es
 status: true
 dependencies:
   module:
+    - link
     - paragraphs
-id: paragraph.field_card_container_description
-field_name: field_card_container_description
+id: paragraph.field_award_link
+field_name: field_award_link
 entity_type: paragraph
-type: string_long
-settings:
-  case_sensitive: false
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: 1
 translatable: true

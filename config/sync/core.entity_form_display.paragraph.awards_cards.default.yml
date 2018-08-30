@@ -1,27 +1,29 @@
-uuid: 287aeace-cbde-4d17-b09b-7a501a6847b8
+uuid: f1d33679-83c1-4812-ad9d-fdca943bb2c1
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.paragraph.testimonials.field_company
-    - field.field.paragraph.testimonials.field_testimonials_body
-    - field.field.paragraph.testimonials.field_testimonials_image
-    - field.field.paragraph.testimonials.field_testimonials_name
-    - paragraphs.paragraphs_type.testimonials
-id: paragraph.testimonials.default
+    - field.field.paragraph.awards_cards.field_award_link
+    - field.field.paragraph.awards_cards.field_card_body
+    - field.field.paragraph.awards_cards.field_card_image
+    - field.field.paragraph.awards_cards.field_card_title
+    - paragraphs.paragraphs_type.awards_cards
+  module:
+    - link
+id: paragraph.awards_cards.default
 targetEntityType: paragraph
-bundle: testimonials
+bundle: awards_cards
 mode: default
 content:
-  field_company:
+  field_award_link:
     weight: 3
     settings:
-      size: 60
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: link_default
     region: content
-  field_testimonials_body:
+  field_card_body:
     weight: 1
     settings:
       rows: 5
@@ -29,8 +31,8 @@ content:
     third_party_settings: {  }
     type: string_textarea
     region: content
-  field_testimonials_image:
-    weight: 0
+  field_card_image:
+    weight: 2
     settings:
       match_operator: CONTAINS
       size: 60
@@ -38,8 +40,8 @@ content:
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
-  field_testimonials_name:
-    weight: 2
+  field_card_title:
+    weight: 0
     settings:
       size: 60
       placeholder: ''

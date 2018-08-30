@@ -1,0 +1,23 @@
+uuid: aae6fb8d-f89e-46a2-8125-73d8bccb877e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_partner_link
+    - paragraphs.paragraphs_type.partner_cards
+  module:
+    - link
+id: paragraph.partner_cards.field_partner_link
+field_name: field_partner_link
+entity_type: paragraph
+bundle: partner_cards
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

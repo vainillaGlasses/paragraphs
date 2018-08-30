@@ -1,19 +1,19 @@
-uuid: f114ceee-0724-4844-9b52-343ad8b93d62
+uuid: e09e5d49-f61f-4a8e-8054-7b0e8c508d58
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.paragraph.testimonials.field_testimonial_company
-    - field.field.paragraph.testimonials.field_testimonial_image
-    - field.field.paragraph.testimonials.field_testimonial_name
-    - field.field.paragraph.testimonials.field_testimonial_quote
+    - field.field.paragraph.testimonials.field_company
+    - field.field.paragraph.testimonials.field_testimonials_body
+    - field.field.paragraph.testimonials.field_testimonials_image
+    - field.field.paragraph.testimonials.field_testimonials_name
     - paragraphs.paragraphs_type.testimonials
 id: paragraph.testimonials.default
 targetEntityType: paragraph
 bundle: testimonials
 mode: default
 content:
-  field_testimonial_company:
+  field_company:
     weight: 3
     label: above
     settings:
@@ -21,7 +21,14 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_testimonial_image:
+  field_testimonials_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_testimonials_image:
     type: entity_reference_entity_view
     weight: 0
     label: above
@@ -30,19 +37,12 @@ content:
       link: false
     third_party_settings: {  }
     region: content
-  field_testimonial_name:
+  field_testimonials_name:
     weight: 2
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
-    region: content
-  field_testimonial_quote:
-    weight: 1
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
     region: content
 hidden: {  }

@@ -1,0 +1,11 @@
+uuid: 0b71af30-38bc-424d-b379-0fba905d05df
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.cards_image
+id: media.cards_image
+target_entity_type_id: media
+target_bundle: cards_image
+default_langcode: site_default
+language_alterable: false

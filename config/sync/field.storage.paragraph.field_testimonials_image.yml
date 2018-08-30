@@ -1,17 +1,16 @@
-uuid: 16872cd7-e947-4733-bb36-ebd0b0aa3675
+uuid: 829af75b-f669-4008-9ce2-9da2d447cc66
 langcode: es
 status: true
 dependencies:
   module:
+    - media
     - paragraphs
-id: paragraph.field_card_container_title
-field_name: field_card_container_title
+id: paragraph.field_testimonials_image
+field_name: field_testimonials_image
 entity_type: paragraph
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: media
 module: core
 locked: false
 cardinality: 1

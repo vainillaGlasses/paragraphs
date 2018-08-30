@@ -1,10 +1,10 @@
-uuid: 09251a9a-c829-433d-a9b3-1cfff215406a
+uuid: a6c4d4ee-8870-4e8b-aa73-cd3ce09e2bdd
 langcode: es
 status: true
 dependencies:
   config:
     - field.field.paragraph.card_container.field_card_container_description
-    - field.field.paragraph.card_container.field_card_container_paragraphs
+    - field.field.paragraph.card_container.field_card_container_paragraph
     - field.field.paragraph.card_container.field_card_container_title
     - paragraphs.paragraphs_type.card_container
   module:
@@ -17,12 +17,12 @@ content:
   field_card_container_description:
     weight: 1
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: string_textarea
     region: content
-  field_card_container_paragraphs:
+  field_card_container_paragraph:
     type: entity_reference_paragraphs
     weight: 2
     settings:

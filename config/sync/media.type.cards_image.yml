@@ -1,0 +1,13 @@
+uuid: ffbe672c-a1af-4517-832d-114cb75f10f9
+langcode: es
+status: true
+dependencies: {  }
+id: cards_image
+label: 'Cards Image'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_7
+field_map: {  }

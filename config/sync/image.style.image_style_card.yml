@@ -1,0 +1,14 @@
+uuid: 1e80bb6a-cb25-4643-ac80-6e2e9393ef9d
+langcode: es
+status: true
+dependencies: {  }
+name: image_style_card
+label: Card
+effects:
+  7f3651e5-9be0-4b1d-9376-bc1db6e30e14:
+    uuid: 7f3651e5-9be0-4b1d-9376-bc1db6e30e14
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150

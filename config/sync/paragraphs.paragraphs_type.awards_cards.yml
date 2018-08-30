@@ -1,9 +1,9 @@
-uuid: 3f31c092-9b14-4ecf-8dc3-4d257e610c99
+uuid: 67af679a-9b2e-4a26-b87f-c0e7f91bd896
 langcode: es
 status: true
 dependencies: {  }
-id: testimonials
-label: Testimonials
+id: awards_cards
+label: 'Awards cards'
 icon_uuid: null
 description: ''
 behavior_plugins: {  }

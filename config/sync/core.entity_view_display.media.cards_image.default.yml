@@ -1,0 +1,29 @@
+uuid: 445be77a-1f3f-4f6b-b68d-4927d884a962
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.media.cards_image.field_media_image_7
+    - media.type.cards_image
+  module:
+    - image
+id: media.cards_image.default
+targetEntityType: media
+bundle: cards_image
+mode: default
+content:
+  field_media_image_7:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

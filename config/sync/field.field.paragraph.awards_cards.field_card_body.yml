@@ -1,0 +1,19 @@
+uuid: 147fc060-0880-46e5-a353-51e6560390b5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_body
+    - paragraphs.paragraphs_type.awards_cards
+id: paragraph.awards_cards.field_card_body
+field_name: field_card_body
+entity_type: paragraph
+bundle: awards_cards
+label: 'More Information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

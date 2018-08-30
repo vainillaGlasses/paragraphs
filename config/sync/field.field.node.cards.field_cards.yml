@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_cards
     - node.type.cards
-    - paragraphs.paragraphs_type.card_container
   module:
     - entity_reference_revisions
 id: node.cards.field_cards
@@ -22,8 +21,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     negate: 0
-    target_bundles:
-      card_container: card_container
+    target_bundles: {  }
     target_bundles_drag_drop:
       award_card:
         weight: 5

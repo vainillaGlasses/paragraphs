@@ -1,14 +1,14 @@
-uuid: 1f2b1a30-3be0-4c0f-bba5-a1f014e5ff31
+uuid: 1ffde653-ed31-44bd-936a-b6b54c75ab0e
 langcode: es
 status: true
 dependencies:
   config:
     - field.field.paragraph.card_container.field_card_container_description
-    - field.field.paragraph.card_container.field_card_container_paragraphs
+    - field.field.paragraph.card_container.field_card_container_paragraph
     - field.field.paragraph.card_container.field_card_container_title
     - paragraphs.paragraphs_type.card_container
   module:
-    - paragraphs
+    - entity_reference_revisions
 id: paragraph.card_container.default
 targetEntityType: paragraph
 bundle: card_container
@@ -16,22 +16,23 @@ mode: default
 content:
   field_card_container_description:
     weight: 1
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_card_container_paragraphs:
-    type: paragraph_summary
-    weight: 2
-    label: hidden
+    label: above
     settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_card_container_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     region: content
   field_card_container_title:
     weight: 0
-    label: hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

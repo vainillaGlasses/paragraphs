@@ -1,23 +1,23 @@
-uuid: fc1887a9-244e-4a73-a8ba-588f8b5604d9
+uuid: 91f41c3e-4a38-408d-a5f8-dcddb82108a7
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.media.image.field_media_image_6
-    - image.style.thumbnail
-    - media.type.image
+    - field.field.media.cards_image.field_media_image_7
+    - image.style.image_style_card
+    - media.type.cards_image
   module:
     - image
-id: media.image.default
+id: media.cards_image.default
 targetEntityType: media
-bundle: image
+bundle: cards_image
 mode: default
 content:
-  field_media_image_6:
+  field_media_image_7:
     weight: 0
     settings:
+      preview_image_style: image_style_card
       progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content

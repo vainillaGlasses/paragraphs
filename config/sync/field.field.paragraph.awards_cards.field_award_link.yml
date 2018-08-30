@@ -1,0 +1,23 @@
+uuid: 7097064d-c8bf-47ba-8d7b-094535da4210
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_award_link
+    - paragraphs.paragraphs_type.awards_cards
+  module:
+    - link
+id: paragraph.awards_cards.field_award_link
+field_name: field_award_link
+entity_type: paragraph
+bundle: awards_cards
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

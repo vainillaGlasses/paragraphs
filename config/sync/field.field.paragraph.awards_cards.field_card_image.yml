@@ -1,0 +1,28 @@
+uuid: b1df9eb0-12ed-4e6b-b07e-49dad203b61e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_image
+    - media.type.cards_image
+    - paragraphs.paragraphs_type.awards_cards
+id: paragraph.awards_cards.field_card_image
+field_name: field_card_image
+entity_type: paragraph
+bundle: awards_cards
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      cards_image: cards_image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
