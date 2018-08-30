@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a paragraph.
+ *
+ */
+#}
+{%
+set classes = [
+'paragraph',
+'paragraph--type--' ~ paragraph.bundle|clean_class,
+view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+'call',
+]
+%}
+{% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+        <div class="call__media">
+            {{ content.field_image }}
+        </div>
+        <div class="call__inner">
+            <div class="call__content">
+                <h1>{{ content.field_call_action_title }}</h1>
+
+                <h3>{{ content.field_call_action_text }}</h3>                
+
+                <div class="call__link">{{ content.field_call_action_link }}</div>
+            </div>
+        </div>
+    </div>
+{% endblock paragraph %}

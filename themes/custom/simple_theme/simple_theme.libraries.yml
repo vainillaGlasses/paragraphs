@@ -2,3 +2,5 @@ global:
   css:
     component:
       css/components/hero.css: {}
+      css/components/call.css: {}
+      css/components/card.css: {}

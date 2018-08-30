@@ -1,0 +1,38 @@
+.card {
+    align-items: stretch;
+    display: flex;
+}
+
+.card__media {
+    margin: 0 auto;
+    object-fit: cover;
+    opacity: 0.6;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.card__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__content h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.card__content .card__subtitle {
+    font-size: 2rem;
+}
