@@ -1,4 +1,4 @@
-uuid: ff2a6e0c-b567-4789-a7df-08ba726532ab
+uuid: 171cb550-8d82-4edd-8f52-e7953f01ce81
 langcode: es
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_cards
-field_name: field_cards
+id: node.field_testimonial_view
+field_name: field_testimonial_view
 entity_type: node
 type: entity_reference_revisions
 settings:

@@ -1,16 +1,16 @@
-uuid: 59661b93-7a25-4e46-8246-c895797cfefc
+uuid: 6722e439-3ee2-4e0c-87eb-84ad7b1107cd
 langcode: es
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.cards
+    - node.type.testimonial_view
   module:
     - text
-id: node.cards.body
+id: node.testimonial_view.body
 field_name: body
 entity_type: node
-bundle: cards
+bundle: testimonial_view
 label: Body
 description: ''
 required: false

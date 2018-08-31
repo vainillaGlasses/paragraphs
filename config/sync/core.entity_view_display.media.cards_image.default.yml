@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.media.cards_image.field_media_image_7
+    - image.style.image_style_card
     - media.type.cards_image
   module:
     - image
@@ -16,7 +17,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: ''
+      image_style: image_style_card
       image_link: ''
     third_party_settings: {  }
     type: image

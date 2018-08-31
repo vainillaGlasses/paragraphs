@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_testimonials_image
-    - media.type.image
+    - media.type.cards_image
     - paragraphs.paragraphs_type.testimonials
 id: paragraph.testimonials.field_testimonials_image
 field_name: field_testimonials_image
@@ -20,7 +20,7 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
-      image: image
+      cards_image: cards_image
     sort:
       field: _none
     auto_create: false

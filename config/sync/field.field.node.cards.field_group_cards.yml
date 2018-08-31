@@ -1,0 +1,56 @@
+uuid: 5dff04e0-62b1-4be9-91b3-61525fbaf24c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_cards
+    - node.type.cards
+    - paragraphs.paragraphs_type.awards_cards
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.partner_cards
+  module:
+    - entity_reference_revisions
+id: node.cards.field_group_cards
+field_name: field_group_cards
+entity_type: node
+bundle: cards
+label: Cards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      awards_cards: awards_cards
+      card: card
+      partner_cards: partner_cards
+    target_bundles_drag_drop:
+      awards_cards:
+        enabled: true
+        weight: 9
+      call_page:
+        weight: 10
+        enabled: false
+      card:
+        enabled: true
+        weight: 11
+      card_container:
+        weight: 12
+        enabled: false
+      hero_banner:
+        weight: 13
+        enabled: false
+      partner_cards:
+        enabled: true
+        weight: 14
+      testimonial_cards:
+        weight: 15
+        enabled: false
+      testimonials:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,4 +1,4 @@
-uuid: 5dbfec0f-e6fe-4114-808f-cf1eed065598
+uuid: 21f93da8-88ac-4838-bd19-69677a96537d
 langcode: es
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Cards
-type: cards
+name: 'Testimonial View'
+type: testimonial_view
 description: ''
 help: ''
 new_revision: true

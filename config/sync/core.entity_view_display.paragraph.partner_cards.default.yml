@@ -16,15 +16,16 @@ mode: default
 content:
   field_card_image:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link: true
+      view_mode: default
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_card_title:
     weight: 1
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -32,7 +33,7 @@ content:
     region: content
   field_partner_link:
     weight: 2
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false

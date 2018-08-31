@@ -1,16 +1,16 @@
-uuid: 03f92d92-7d5e-439e-b5e8-8eadd5816eb3
+uuid: a9627f38-07eb-47cb-a758-4999c950d319
 langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.for_link_page
+    - node.type.testimonial_view
     - system.menu.main
   module:
     - node
     - user
-id: view_call_action
-label: 'View Call Action'
+id: testimonial
+label: Testimonial
 module: views
 description: ''
 tag: ''
@@ -138,7 +138,7 @@ display:
           table: node_field_data
           field: type
           value:
-            for_link_page: for_link_page
+            testimonial_view: testimonial_view
           entity_type: node
           entity_field: type
           plugin_id: bundle
@@ -158,13 +158,12 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'View Call Action'
+      title: Testimonial
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
-      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -181,12 +180,11 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: view-call-action
+      path: testimonial
       menu:
         type: normal
-        title: 'View Call Action'
+        title: Testimonial
         menu_name: main
-        weight: -42
     cache_metadata:
       max-age: -1
       contexts:

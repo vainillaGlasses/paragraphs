@@ -1,11 +1,11 @@
-uuid: d11d8511-5e6f-42f6-bb45-50dc0ae52555
+uuid: a6ee8b79-28ce-41d4-9fa2-9c9d79c33ad4
 langcode: es
 status: true
 dependencies:
   config:
-    - node.type.cards
-id: node.cards
+    - node.type.testimonial_view
+id: node.testimonial_view
 target_entity_type_id: node
-target_bundle: cards
+target_bundle: testimonial_view
 default_langcode: site_default
 language_alterable: false

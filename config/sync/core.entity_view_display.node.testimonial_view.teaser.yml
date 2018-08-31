@@ -1,17 +1,17 @@
-uuid: 12fdc225-3bc6-4bd6-9192-4dba4c63ddfd
+uuid: 05bfe515-08fb-4d0e-9d1e-820093f51bf1
 langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.cards.body
-    - node.type.cards
+    - field.field.node.testimonial_view.body
+    - node.type.testimonial_view
   module:
     - text
     - user
-id: node.cards.teaser
+id: node.testimonial_view.teaser
 targetEntityType: node
-bundle: cards
+bundle: testimonial_view
 mode: teaser
 content:
   body:

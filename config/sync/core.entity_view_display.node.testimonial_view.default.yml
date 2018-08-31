@@ -1,36 +1,38 @@
-uuid: af117647-824c-4d3b-a23f-9e0f236aaa34
+uuid: 50ac6df3-a2ff-4198-a9fe-dd7446349d00
 langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.cards.body
-    - field.field.node.cards.field_group_cards
-    - node.type.cards
+    - field.field.node.testimonial_view.body
+    - field.field.node.testimonial_view.field_testimonial_view
+    - node.type.testimonial_view
   module:
     - entity_reference_revisions
     - text
     - user
-id: node.cards.default
+id: node.testimonial_view.default
 targetEntityType: node
-bundle: cards
+bundle: testimonial_view
 mode: default
 content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 101
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_group_cards:
+  field_testimonial_view:
     type: entity_reference_revisions_entity_view
-    weight: 1
-    label: hidden
+    weight: 102
+    label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     region: content
+  links:
+    weight: 100
+    region: content
 hidden:
   langcode: true
-  links: true
