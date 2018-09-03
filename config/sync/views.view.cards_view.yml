@@ -184,9 +184,13 @@ display:
       path: cards-view
       menu:
         type: normal
-        title: 'Partners View'
-        menu_name: main
+        title: 'Cards View'
+        description: ''
+        expanded: false
+        parent: ''
         weight: -41
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:

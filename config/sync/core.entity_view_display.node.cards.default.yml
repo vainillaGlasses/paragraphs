@@ -3,25 +3,16 @@ langcode: es
 status: true
 dependencies:
   config:
-    - field.field.node.cards.body
     - field.field.node.cards.field_group_cards
     - node.type.cards
   module:
     - entity_reference_revisions
-    - text
     - user
 id: node.cards.default
 targetEntityType: node
 bundle: cards
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_group_cards:
     type: entity_reference_revisions_entity_view
     weight: 1

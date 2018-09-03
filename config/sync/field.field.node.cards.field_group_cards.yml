@@ -5,9 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_group_cards
     - node.type.cards
-    - paragraphs.paragraphs_type.awards_cards
-    - paragraphs.paragraphs_type.card
-    - paragraphs.paragraphs_type.partner_cards
+    - paragraphs.paragraphs_type.card_container
   module:
     - entity_reference_revisions
 id: node.cards.field_group_cards
@@ -25,30 +23,25 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      awards_cards: awards_cards
-      card: card
-      partner_cards: partner_cards
+      card_container: card_container
     target_bundles_drag_drop:
       awards_cards:
-        enabled: true
         weight: 9
+        enabled: false
       call_page:
         weight: 10
         enabled: false
       card:
-        enabled: true
         weight: 11
-      card_container:
-        weight: 12
         enabled: false
+      card_container:
+        enabled: true
+        weight: 12
       hero_banner:
         weight: 13
         enabled: false
       partner_cards:
-        enabled: true
         weight: 14
-      testimonial_cards:
-        weight: 15
         enabled: false
       testimonials:
         weight: 16

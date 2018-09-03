@@ -1,14 +1,13 @@
-uuid: 171cb550-8d82-4edd-8f52-e7953f01ce81
+uuid: 698c6615-f7a5-4fdd-8f64-dd5914737977
 langcode: es
 status: true
 dependencies:
   module:
     - entity_reference_revisions
-    - node
     - paragraphs
-id: node.field_testimonial_view
-field_name: field_testimonial_view
-entity_type: node
+id: paragraph.field_new_container
+field_name: field_new_container
+entity_type: paragraph
 type: entity_reference_revisions
 settings:
   target_type: paragraph

@@ -3,9 +3,10 @@ langcode: es
 status: true
 dependencies:
   config:
-    - field.field.paragraph.card_container.field_card_container_description
     - field.field.paragraph.card_container.field_card_container_paragraph
     - field.field.paragraph.card_container.field_card_container_title
+    - field.field.paragraph.card_container.field_container_description
+    - field.field.paragraph.card_container.field_new_container
     - paragraphs.paragraphs_type.card_container
   module:
     - entity_reference_revisions
@@ -14,13 +15,6 @@ targetEntityType: paragraph
 bundle: card_container
 mode: default
 content:
-  field_card_container_description:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: basic_string
-    region: content
   field_card_container_paragraph:
     type: entity_reference_revisions_entity_view
     weight: 2
@@ -37,5 +31,22 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_container_description:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_new_container:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
     region: content
 hidden: {  }

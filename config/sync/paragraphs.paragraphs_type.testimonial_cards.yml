@@ -1,9 +1,0 @@
-uuid: fcc412cf-a35c-45e0-8cd3-8e5ec29e30c5
-langcode: es
-status: true
-dependencies: {  }
-id: testimonial_cards
-label: 'Testimonials Cards'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

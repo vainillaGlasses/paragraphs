@@ -5,5 +5,5 @@ dependencies: {  }
 id: card_container
 label: 'Card Container'
 icon_uuid: null
-description: ''
+description: 'Add new paragraph page.'
 behavior_plugins: {  }
